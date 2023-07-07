@@ -1,0 +1,104 @@
+/* body formatting */
+body {
+    background-color: #FDF0E6;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 400; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
+
+/*image formatting */
+img {
+    width: 100%;
+  }
+.project {
+    max-width: 200px;
+}
+
+.mepic {
+    max-width: 40%;
+    max-height: 40%;
+  }
+
+/* headings formatting */
+h1, h2, h3, h4 {
+  line-height: 1.3;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+/* a links formatting */
+a {
+    color: blue;
+    text-decoration: none; /* No underlining */
+  }
+  a:hover {
+    color: #cc6540;
+    text-decoration: underline; /* Underlining when hovering over a link */
+  }
+
+  a:visited { /* visited link */
+    color: #ff7f50;
+  }
+  a:active { /* selected link */
+    color: #994c30;
+  }
+  a:hover,
+  a:focus {
+    color: #cc6540;
+    text-decoration: underline;
+  }
+
+  /* button formatting */
+  .button {
+    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: #F08E80;
+    color: #ffffff; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.2s opacity;
+  }
+  .button:hover {
+   background-color: #FDF0E6;
+    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    text-decoration: #F08E80;
+    border: 2px solid #F08E80;
+  }
+  .button:active {
+    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    background-color: bisque;
+    text-decoration: #F08E80;
+  }
+  .button.contact {
+    background-color: transparent;
+    color: #ff7f50;
+    text-transform: uppercase;
+    border: 2px solid #ff7f50;
+  }
+  .button.contact:hover {
+    background-color: #ff7f50;
+    color: #ffffff;
+  }
+
+  
+
+
