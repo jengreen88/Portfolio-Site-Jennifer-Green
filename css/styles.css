@@ -146,11 +146,12 @@ a {
     background-color: bisque;
     text-decoration: #F08E80;
   }
+  /* email me button*/
   .button.contact {
     background-color: transparent;
-    color: #ff7f50;
+    color: #ffffff;
     text-transform: uppercase;
-    border: 2px solid #ff7f50;
+    border: 2px solid #ffffff;
   }
   .button.contact:hover {
     background-color: #ff7f50;
@@ -174,7 +175,12 @@ a {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
-
+/*footer formatting*/
+footer {
+  background-color: #F08E80;
+  color: white;
+  text-align: center;
+}
 
 /* ==============================
 Medium devices (640px and larger)
