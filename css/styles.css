@@ -1,3 +1,38 @@
+/* universal selector*/
+* {
+  box-sizing: border-box;
+}
+
+/*header formatting*/
+header {
+  background-color:#ff44c4;
+  padding: 10px 0;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+ 
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
 /* body formatting */
 body {
     background-color: #FDF0E6;
@@ -7,6 +42,25 @@ body {
   font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
+}
+
+
+/* hero alignment */
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: center; 
+  margin: 0;
+  padding: 0.67em 0;
+}
+
+main {
+  padding-top: 133px;
 }
 
 /*image formatting */
@@ -99,6 +153,19 @@ a {
     color: #ffffff;
   }
 
-  
+  /* selector {
+  position: relative;
+} */
 
+/*selector {
+  float: right;
+}*/
 
+.container {
+  padding: 0 15px;
+}
+
+/* columns */
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
