@@ -5,15 +5,14 @@
 
 /*header formatting*/
 header {
-  background-color:#ff44c4;
+  background-color:#F08E80;
   padding: 10px 0;
   margin: 10px;
-  border-bottom: 3px solid #4a4a4a;
   text-align: unset;
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 400px;
  
 }
 
@@ -30,7 +29,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #ffffff;
 }
 
 /* body formatting */
@@ -38,19 +37,19 @@ body {
     background-color: #FDF0E6;
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 400; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-weight: 400; 
+  line-height: 1.6; 
   color: #4a4a4a;
 }
 
 
 /* hero alignment */
 #hero {
-  background-color: #ffe4c4;
-  padding: 20px 0;
+  background-color: #efc1b9;
+  padding: 20px;
   display: inline-block;
   width: 100%;
+  text-align: justify;
 }
 
 #hero span {
@@ -64,7 +63,7 @@ body {
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 10px;
 }
 
 /*image formatting */
@@ -78,6 +77,8 @@ img {
 .mepic {
     max-width: 40%;
     max-height: 40%;
+    float: left;
+    padding: 20px;
   }
 
 /* headings formatting */
@@ -102,6 +103,11 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+
+h5 {
+  font-weight: bold;
+}
+
 
 /* a links formatting */
 a {
@@ -140,11 +146,13 @@ a {
     opacity: 0.8; /* Reduces the opacity of the button to 80% */
     text-decoration: #F08E80;
     border: 2px solid #F08E80;
+    
   }
   .button:active {
     opacity: 0.8; /* Reduces the opacity of the button to 80% */
-    background-color: bisque;
+    background-color: #F08E80;
     text-decoration: #F08E80;
+    color: #ffffff;
   }
   /* email me button*/
   .button.contact {
@@ -171,8 +179,22 @@ a {
 }
 
 /* columns */
-.row {
+.row1 {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+    border: black;
+    display:flex;
+    border-bottom: 3px solid #F08E80;
+}
+.row2 {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+    border: black;
+    display:flex;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /*footer formatting*/
@@ -181,7 +203,10 @@ footer {
   color: white;
   text-align: center;
 }
-
+/* social media */
+.container {
+  padding: 20px;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -190,6 +215,13 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
+
+  body {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
   nav {
     width: auto;
@@ -200,15 +232,47 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
+
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+}
+
+/* CSS for Expert Case Study */
+.experth1 {
+color:#F08E80;
+}
+
+.expertrows {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+    border: black;
+    display:flex;
+    border-bottom: 3px solid #F08E80;
+}
+
+
+.expertcontainer {
+  padding: 0 15px;
+  text-align: center;
+}
+
+.experttext {
+  text-align: justify;
 }
