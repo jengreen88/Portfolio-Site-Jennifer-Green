@@ -6,8 +6,8 @@
 /*header formatting*/
 header {
   background-color:#F08E80;
-  padding: 10px 0;
-  margin: 10px;
+  padding: 10px, 10px, 0px, 10px;
+  margin: 10px, 10px, 0px, 10px;;
   text-align: unset;
 }
 
@@ -47,7 +47,7 @@ body {
 /* hero alignment */
 #hero {
   background-color: #efc1b9;
-  padding: 20px 0;
+  padding: 0px 30px 10px 30px;
   display: inline-block;
   width: 100%;
   text-align: justify;
@@ -59,7 +59,7 @@ body {
 
 #hero h1 {
   text-align: center; 
-  margin: 0;
+  margin: 10;
   padding: 0.67em 0;
 }
 
@@ -118,8 +118,10 @@ h4 {
 h5 {
   font-family: 'Roboto Serif', serif;
   font-weight: bold;
+  margin-top: 0px;
+  text-align: auto;
 }
-
+ 
 
 /* a links formatting */
 a {
@@ -131,9 +133,10 @@ a {
     text-decoration: underline; /* Underlining when hovering over a link */
   }
 
-  a:visited { /* visited link */
-    color: #ff7f50;
-  }
+  /*a:visited {
+    color: white;
+  } */
+
   a:active { /* selected link */
     color: #994c30;
   }
@@ -182,9 +185,6 @@ a {
     color: #ffffff;
   }
 
-.container {
-  padding: 0 15px;
-}
 
 /* columns */
 .row1 {
@@ -197,6 +197,14 @@ a {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
     border: black;
     display:flex;
+    border-bottom: 3px solid #F08E80;
+}
+
+.row3 {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+    border: black;
+    display:flex;
+    vertical-align: top;
 }
 
 .row::after {
@@ -215,6 +223,43 @@ footer {
 /* social media */
 .container {
   padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* animation */
+.animation{
+  width: 100;
+  max-width: 100%;
+  height: auto;
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.animated-svg {
+  width: 100px;
+  height: 100px;
+  animation: rotate 3s linear forwards;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 /* ==============================
 Medium devices (640px and larger)
@@ -229,6 +274,7 @@ Medium devices (640px and larger)
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 18px;
   }
 }
 
