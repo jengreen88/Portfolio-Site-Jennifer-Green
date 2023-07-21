@@ -27,7 +27,7 @@
                 <nav>
                     <ul class="navigation">
                         <li>
-                            <a href="expert.html">Work</a>
+                            <a href="expert.html">Case Study</a>
                         </li>
                         <li>
                             <a href="about.html">About</a>
@@ -171,7 +171,8 @@
 
                 <picture>
                     <source srcset="./img/5-steps-design-thinking-1.png" media="(max-width:767px)">
-                    <img src="./img/5-steps-design-thinking-1.jpeg" alt="Design thinking process graphic" class="project">
+                    <img src="./img/5-steps-design-thinking-1.jpeg" alt="Design thinking process graphic" class="project" onclick="window.open(this.src)">  
+    
                 </picture>
                 <div class="expertrows"></div>
             </div>
@@ -274,10 +275,9 @@
                         <h4>Research Goals</h4>
                         <ul>
                             <li>Identify users’ reasons for seeking an expert.</li>
-                            <ul>
+            
                                 <li>At what point would they seek one?</li>
                                 <li>When and why would they want the contact to be immediate?</li>
-                            </ul>
                             <li>Determine what factors bring users to contacting an expert.</li>
                             <li>What features would bring users to the Expert app?</li>
                         </ul>
@@ -306,21 +306,6 @@
                     </div>
                     <div>
 
-                        <div>
-                            <h4>Highlights from Interviews</h4>
-                            <ul>
-                                <li>Over half of the people who do DIY projects do not consider themselves to be DIYers.</li>
-                                <li>DIYers are generally not planners; they work on the project and get additional tools and materials as they go along.</li>
-                                <li>Students know early on in their studies if they need additional materials or help.</li>
-                                <li>Students are more likely to do due diligence on their sources than DIYers.</li>
-                                <li>Students tend to verify information through multiple sources.</li>
-                                <li>None of the interviewees stated they used more than one source, if they used any.</li>
-                            </ul>
-                            <picture>
-                                <source srcset="./img/affinitymap.png" media="(max-width:767px)">
-                                <img src="./img/affinitymap.png" alt="Affinity Map" class="project">
-                            </picture>
-                        </div>
                         <!-- end second column -->
 
                     </div>
@@ -329,7 +314,24 @@
                 </div>
 
             </div>
-
+            <div class="expertcontainer"> <h3>Highlights from Interviews</h3>
+            </div>
+           
+                <ul>
+                <li>Over half of the people who do DIY projects do not consider themselves to be DIYers.</li>
+                <li>DIYers are generally not planners; they work on the project and get additional tools and materials as they go along.</li>
+                <li>Students know early on in their studies if they need additional materials or help.</li>
+                <li>Students are more likely to do due diligence on their sources than DIYers.</li>
+                <li>Students tend to verify information through multiple sources.</li>
+                <li>None of the interviewees stated they used more than one source, if they used any.</li>
+            </ul>
+            <div class="expertcontainer">
+            <picture>
+                <source srcset="./img/affinitymap.png" media="(max-width:767px)">
+                <img src="./img/affinitymap.png" alt="Affinity Map" class="project">
+            </picture>
+            </div>
+            <div class="expertrows"></div>
             <!-- end work section (6) -->
 
             <!-- open work section (7) type (2)-->
@@ -357,7 +359,7 @@
                     <img src="./img/meredith.png" alt="Meredith persona" class="project">
                 </picture><br>
                 <picture>
-                    <source srcset="./img/5-steps-design-thinking-1.png" media="(max-width:767px)">
+                    <source srcset="./img/meredithflowchart.png" media="(max-width:767px)">
                     <img src="./img/meredithflowchart.png" alt="Meredith flow chart" class="project">
                 </picture>
                 <div class="expertrows"></div>
@@ -538,6 +540,7 @@
                 </div>
             </div>
         </footer>
+        <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 
