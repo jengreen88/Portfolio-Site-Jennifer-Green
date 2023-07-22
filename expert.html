@@ -14,13 +14,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <title>
             Jennifer Green Writing and Design - Frontend designs</title>
-    </head>
+            <script src="https://kit.fontawesome.com/565cb3ebfc.js" crossorigin="anonymous"></script>    
+        </head>
 
     <!--body section-->
     <body>
         <header>
 
             <div class="container">
+                <div class="navtoggle" id="myNavtoggle">
                 <a href="index.html">
                     <img class="logo" src="img/logo.png" alt="Jennifer Green Writing and Design logo">
                 </a>
@@ -35,8 +37,10 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
                     </ul>
                 </nav>
+            </div>
             </div>
         </header>
 
@@ -84,7 +88,7 @@
             </div>
 
             <!-- end work section (1) -->
-
+            <div class="container">
             <div
                 class="expertrows">
                 <!-- open work section (2) -->
@@ -97,7 +101,9 @@
                         <h3>Sections</h3>
                     </div>
                 </div>
+        
                 <!-- end first column -->
+               
                 <div
                     class="column col-md-6 col-lg-5">
                     <!-- open second column (used for text) -->
@@ -116,11 +122,13 @@
                 </div>
                 <!-- end second column -->
             </div>
+            </div>
             <!-- end row that holds (2) columns for project -->
             <!-- end work section (2) -->
 
             <!-- open work section (3) type (1) -->
-                <div class="expertcontainer"> <h3 id="about">About Expert</h3>
+            <div class="container"> 
+            <div class="expertcontainer"> <h3 id="about">About Expert</h3>
             </div>
             <div class="experttext">
                 <p>Expert is a responsive web app helping users search for an expert in a variety of fields and  book a video call with them immediately (within 15 minutes of booking) or at a future time. When the expert creates their Expert Information page, in addition to posting a bio, they can attach videos and articles that further allows users to determine if the expert’s knowledge meets their needs.</p>
@@ -176,11 +184,12 @@
                 </picture>
                 <div class="expertrows"></div>
             </div>
-
+            </div>
             <!-- end section (4) -->
 
 
             <!-- open work section (5) type (1) -->
+            <div class="container">
             <div class="expertcontainer">
                 <h3 id="competitor">Competitor Analysis</h3>
             </div>
@@ -248,7 +257,7 @@
                         <img src="./img/cheggimage.png" alt="Chegg course help listings" class="project">
                     </picture>
                 </div>
-
+                </div>
                 <!-- end second column -->
             </div>
             <!-- end row that holds (2) columns for project -->
@@ -540,7 +549,8 @@
                 </div>
             </div>
         </footer>
-        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
     </body>
 

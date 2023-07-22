@@ -15,3 +15,14 @@ for (var i = 0; i < images.length; i++) {
   images[i].addEventListener("click", viewLargerImage);
 }*/
 
+
+function menuToggle() {
+    var x = document.getElementById('myNavtoggle');
+    if (x.className === 'navtoggle') {
+      x.className += ' responsive';
+    } else {
+      x.className = 'navtoggle';
+    }
+  }
+
+  
