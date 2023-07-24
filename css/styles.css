@@ -437,3 +437,21 @@ color:#F08E80;
 {
   height: 16rem;
 }
+
+/* Animation */
+.div-img{
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  padding-top:20%;
+}
+img{
+  transition: transform .2s;
+  width:200px;
+  margin:0 auto;
+  border-radius: 10px;
+
+}
+img:hover{
+  transform:scale(2.5);
+}
