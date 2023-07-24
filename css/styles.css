@@ -27,6 +27,7 @@ position: relative;
   max-width: 400px;
 }
 
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -117,9 +118,9 @@ img {
 }
 
 
-.project {
+/*.project {
     max-width: 200px;
-}
+} */
 
 .img:hover{
   color: #424242; 
@@ -439,19 +440,19 @@ color:#F08E80;
 }
 
 /* Animation */
-.div-img{
+.div-project{
   justify-content: center;
   align-items: center;
   display:flex;
   padding-top:20%;
 }
-img{
+.project{
   transition: transform .2s;
   width:200px;
   margin:0 auto;
   border-radius: 10px;
 
 }
-img:hover{
+.project:hover{
   transform:scale(2.5);
 }
