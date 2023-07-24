@@ -18,7 +18,7 @@ body {
 header {
 position: relative;
   background-color:#F08E80;
-  padding: 10px, 10px, 0px, 50px;
+  padding: 10px 10px 0px 50px;
   /*margin: 10px, 10px, 0px, 10px;*/
  width: 100%;
 }
@@ -189,7 +189,7 @@ h5 {
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0px;
-  text-align: auto;
+
 }
  
 
@@ -257,25 +257,13 @@ a {
 
 
 /* columns */
-.row1 {
+.row {
   margin: 0px 0; /* 25px top and bottom, 0 left and right */
     border: black;
     display:flex;
     border-bottom: 3px solid #F08E80;
 }
-.row2 {
-  margin: 0spx 0; /* 25px top and bottom, 0 left and right */
-    border: black;
-    display:flex;
-    border-bottom: 3px solid #F08E80;
-}
 
-.row3 {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
-    border: black;
-    display:flex;
-    vertical-align: top;
-}
 
 .row::after {
   content: "";
@@ -304,7 +292,7 @@ footer {
 
 /* animation */
 .animation{
-  width: 100;
+  width: 100px;
   max-width: 100%;
   height: auto;
 }
