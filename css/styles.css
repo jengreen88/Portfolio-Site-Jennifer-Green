@@ -137,8 +137,8 @@ transform: scale(1.15);
 }
 
 .mepic {
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 32%;
+    max-height: 32%;
     float: left;
     padding: 20px;
   }
